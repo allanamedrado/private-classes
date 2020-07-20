@@ -26,6 +26,8 @@ header {
 .links a{
     text-decoration: none;
     color: rgb(57, 80, 126);
+    margin-top: 10px;
+    display: inline-block;
     position: relative;
 }
 
@@ -48,3 +50,79 @@ header {
     width: 100%;
     transition: all 200ms ease-in-out;
 }
+
+/***********CARD*************/
+
+.card {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 45px auto;
+    box-shadow: 4px 4px 4px -2px rgba(100, 100, 100, 0.4);
+    animation: up 200ms ease-in;
+}
+
+@keyframes up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.avatar {
+    width: 100%;
+    background: url(https://source.unsplash.com/collection/517198/900x900);
+}
+
+.details {
+    padding: 32px;
+}
+
+.details .item{ 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+
+.details .item:first-child {
+    border-top: 10px;
+    display: inline-block;
+}
+
+.details h3,
+.details .item div:nth-child(1) {
+    font-size: 14px;
+    line-height: 24px;
+    color: #777;
+    letter-spacing: 0.7px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.details h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.details .item span {
+    background-color: slateblue;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase; 
+    padding: 8px 16px;
+    border-radius: 10px;
+    color: black;
+    margin-top: 8px;
+    margin-right: 4px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+
