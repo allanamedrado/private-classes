@@ -1,0 +1,29 @@
+{
+  "teachers": [
+    {
+      "avatar_url": "https://allana.com",
+      "name": "Allana Araujo",
+      "birth": "1997-12-30",
+      "edu_level": "Complete HS",
+      "type_class": "Pres",
+      "area": "math"
+    },
+    {
+      "avatar_url": "https://leticia.com",
+      "name": "Letícia Antun",
+      "birth": "1996-10-23",
+      "edu_level": "Complete HS",
+      "type_class": "Pres",
+      "area": "history"
+    },
+    {
+      "id": 3,
+      "avatar_url": "https://allana.com",
+      "name": "Allana Araujo",
+      "birth": 883440000000,
+      "edu_level": "Complete HS",
+      "type_class": "Pres",
+      "area": "math"
+    }
+  ]
+}

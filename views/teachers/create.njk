@@ -1,0 +1,74 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Register - Private Classes</title>
+{% endblock %}
+
+{% block content %}
+    <form class="card" id="details" method = "POST" action = "/teachers">
+        
+        <section class="details" id="create">
+            <h3>Register</h3>
+
+            <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    <input type="url" name = "avatar_url" placeholder = "https://">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Name</div>
+                <div>
+                    <input type="text" name = "name" placeholder = "Name Complete">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Date of birth</div>
+                <div>
+                    <input type="date" name = "birth">
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Education level</div>
+                <div class = "select">
+                    <select name="edu_level">
+                        <option value="Complete HS">Complete High School</option>
+                        <option value="Complete College">Complete College</option>
+                        <option value="Master's degree">Master's degree</option>
+                        <option value="Doctorate degree">Doctorate degree</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Type class</div>
+                <div>
+                    <span>
+                        <input type="radio" name="type_class" value="Presential">
+                        Presential
+                    </span>
+
+                    <span>
+                        <input type="radio" name="type_class" value="Remotely">
+                        Remotely
+                    </span>
+                </div>
+            </div>
+            
+            <div class="item">
+                <div>Occupation area</div>
+                <div>
+                    <input type="text" name = "area" placeholder="Occupation area">
+                </div>
+            </div>
+
+            <div class="button">
+                <button type="submit">Salvar</button>
+            </div>
+            
+        </section>
+    </form>
+{% endblock %}
