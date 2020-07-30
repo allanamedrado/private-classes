@@ -1,0 +1,67 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Teacher - Private Classes</title>
+{% endblock %}
+
+{% block content %}
+    <form class="card" id="details" method = "POST" action = "/teachers">
+        
+        <section class="details" id="create">
+            <h3>Teacher</h3>
+
+            <div class="item">
+                <div>Avatar URL</div>
+                <div>
+                    {{teachers.avatar_url}} 
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Name</div>
+                <div>
+                    {{teachers.name}}
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Age</div>
+                <div>
+                    {{teachers.birth}}
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Education level</div>
+                <div class = "select">
+                    {{teachers.edu_level}}
+                </div>
+            </div>
+
+            <div class="item">
+                <div>Type class</div>
+                <div>
+                    {{teachers.type_class}}
+                </div>
+            </div>
+            
+            <div class="item">
+                <div>Occupation area</div>
+                <div>
+                    {% for item in teachers.area %}
+                        {{item}}
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="item">
+                <div>Since</div>
+                <div>
+                    {{teachers.created_at}}
+                </div>
+            </div>
+
+            <a href="teachers/:id/edit" class="button">Editar</a>
+        </section>
+    </form>
+{% endblock %}

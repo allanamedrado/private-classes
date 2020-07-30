@@ -1,29 +1,34 @@
 {
   "teachers": [
     {
-      "avatar_url": "https://allana.com",
-      "name": "Allana Araujo",
-      "birth": "1997-12-30",
-      "edu_level": "Complete HS",
-      "type_class": "Pres",
-      "area": "math"
+      "id": 1,
+      "avatar_url": "https://allana.com.br",
+      "name": "Allana Medrado",
+      "birth": 883440000000,
+      "edu_level": "Complete College",
+      "type_class": "Remotely",
+      "area": "math, technology",
+      "created_at": 1596029265033
     },
     {
-      "avatar_url": "https://leticia.com",
+      "id": 2,
+      "avatar_url": "https://leticia.com.br",
       "name": "Letícia Antun",
-      "birth": "1996-10-23",
-      "edu_level": "Complete HS",
-      "type_class": "Pres",
-      "area": "history"
+      "birth": 877564800000,
+      "edu_level": "Master's degree",
+      "type_class": "Presential",
+      "area": "sociology, audiovisual",
+      "created_at": 1596029328942
     },
     {
       "id": 3,
-      "avatar_url": "https://allana.com",
-      "name": "Allana Araujo",
-      "birth": 883440000000,
-      "edu_level": "Complete HS",
-      "type_class": "Pres",
-      "area": "math"
+      "avatar_url": "https://andrea.com.br",
+      "name": "Andrea Medrado",
+      "birth": 499478400000,
+      "edu_level": "Master's degree",
+      "type_class": "Presential",
+      "area": "biology, history, yoga",
+      "created_at": 1596029438138
     }
   ]
 }
