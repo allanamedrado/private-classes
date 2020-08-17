@@ -29,6 +29,26 @@
       "type_class": "Presential",
       "area": "biology, history, yoga",
       "created_at": 1596029438138
+    },
+    {
+      "id": 4,
+      "avatar_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": "Bianka Ramos",
+      "birth": 882316800000,
+      "edu_level": "Complete HS",
+      "type_class": "Presential",
+      "area": "Yoga",
+      "created_at": 1597702069546
+    },
+    {
+      "id": 5,
+      "avatar_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "name": " Bianka Ramos ",
+      "birth": 882316800000,
+      "edu_level": "Complete College",
+      "type_class": "Presential",
+      "area": "Yoga",
+      "created_at": 1597702661749
     }
   ]
 }

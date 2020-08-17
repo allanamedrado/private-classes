@@ -5,17 +5,15 @@
 {% endblock %}
 
 {% block content %}
-    <form class="card" id="details" method = "POST" action = "/teachers">
-        
+    <form class="card"  method = "POST" action = "/teachers">
+        <section class="avatar">
+            <div>
+                {{teachers.avatar_url}} 
+            </div>
+        </section>  
+
         <section class="details" id="create">
             <h3>Teacher</h3>
-
-            <div class="item">
-                <div>Avatar URL</div>
-                <div>
-                    {{teachers.avatar_url}} 
-                </div>
-            </div>
 
             <div class="item">
                 <div>Name</div>
@@ -61,7 +59,7 @@
                 </div>
             </div>
 
-            <a href="teachers/:id/edit" class="button">Editar</a>
+            <a href="/teachers/{{teachers.id}}/edit" class="button">Editar</a>
         </section>
     </form>
 {% endblock %}
